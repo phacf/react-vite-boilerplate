@@ -1,13 +1,13 @@
 import { render, screen } from '@testing-library/react';
 import React from 'react';
 
-import Main from '.';
+import {{component_name}} from '.';
 
-describe('<Main/>', () => {
+describe('<{{component_name}}/>', () => {
 	it('Should render properly', () => {
         
-		render(<Main />);
-		const text = screen.getByText('component')
+		render(<{{component_name}} />);
+		const text = screen.getByText('{{component_name}}')
 		expect(text).toBeInTheDocument;
 	});
 });

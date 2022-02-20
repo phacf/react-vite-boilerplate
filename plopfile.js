@@ -12,7 +12,22 @@ module.exports = function (plop) {
 			{
 				type: 'add',
 				path: 'src/components/{{component_name}}/index.tsx',
-				templateFile: 'plop-templates/component.js.hbs'
+				templateFile: 'plop-templates/components/component.js.hbs'
+			},
+			{
+				type: 'add',
+				path: 'src/components/{{component_name}}/style.ts',
+				templateFile: 'plop-templates/components/style.js.hbs'
+			},
+			{
+				type: 'add',
+				path: 'src/components/{{component_name}}/test.tsx',
+				templateFile: 'plop-templates/components/test.js.hbs'
+			},
+			{
+				type: 'add',
+				path: 'src/components/{{component_name}}/story.tsx',
+				templateFile: 'plop-templates/components/story.js.hbs'
 			}
 		]
 	});
