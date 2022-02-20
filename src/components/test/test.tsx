@@ -1,4 +1,5 @@
 import { render, screen } from '@testing-library/react';
+import React from 'react';
 
 import Main from '.';
 
@@ -7,6 +8,6 @@ describe('<Main/>', () => {
         
 		render(<Main />);
 		const text = screen.getByText('component')
-		expect(text).toMatchSnapshot();
+		expect(text).toBeInTheDocument;
 	});
 });
