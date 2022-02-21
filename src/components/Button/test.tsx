@@ -5,8 +5,9 @@ import Button from '.';
 
 describe('<Button/>', () => {
 	it('Should render properly', () => {
+        
 		render(<Button />);
-		const text = screen.getByText('Button');
+		const text = screen.getByText('Button')
 		expect(text).toBeInTheDocument;
 	});
 });

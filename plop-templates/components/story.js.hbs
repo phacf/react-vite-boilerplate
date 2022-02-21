@@ -1,20 +1,12 @@
-import { Story, Meta } from '@storybook/react/types-7-0'
-import {{component_name}} from '.'
+import React from 'react';
+
+import { ComponentMeta, ComponentStory } from '@storybook/react';
+
+import {{component_name}} from '.';
 
 export default {
-  title: '{{component_name}}',
-  component: {{component_name}}
-} as Meta
+	title: '{{component_name}}',
+	component: {{component_name}}
+} as ComponentMeta<typeof {{component_name}}>;
 
-export const Basic = () => <{{component_name}} />
-
-export const Default: Story = (
-  args: JSX.IntrinsicAttributes & {
-    title?: string | undefined
-    description?: string | undefined
-  }
-) => <{{component_name}} {...args} />
-Default.args = {
-  title: 'Default Title',
-  description: 'Default Description'
-}
+export const Primary: ComponentStory<typeof {{component_name}}> = () => <{{component_name}} />;

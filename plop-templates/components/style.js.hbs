@@ -2,6 +2,8 @@ import styled, { css } from 'styled-components';
 
 export const {{component_name}} = styled.div<{ example?: string }>`
 	${({ example = 'black' }) => css`
-	border: 1px solid ${example}
+		border: 1px solid ${example};
+		padding: 5px 10px;
+		width: fit-content;
 	`}
 `;
