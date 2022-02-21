@@ -1,5 +1,5 @@
 module.exports = {
-	presets: [
+	"presets": [
 		'@babel/preset-env',
 		'@babel/preset-typescript',
 		'@babel/preset-react'
@@ -7,9 +7,9 @@ module.exports = {
 		//   "pragma": "dom", // default pragma is React.createElement (only in classic runtime)
 		//   "pragmaFrag": "DomFrag", // default is React.Fragment (only in classic runtime)
 		//   "throwIfNamespace": "false", // defaults to true
-		//   "runtime": "classic" // defaults to classic
-		//   // "importSource": "custom-jsx-library" // defaults to react (only in automatic runtime)
+		//   "runtime": "classic", // defaults to classic
+		//   "importSource": "custom-jsx-library" // defaults to react (only in automatic runtime)
 		// }
 	],
-	plugins: ['babel-plugin-styled-components']
+	"plugins": ['babel-plugin-styled-components']
 };
