@@ -34,3 +34,16 @@ See the section about [deployment](https://vitejs.dev/guide/static-deploy.html) 
 You can learn more in the [Vite documentation](https://vitejs.dev/guide/#overview).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+<p>--------------------------------------------------------------------------------------------------------------------------------------</p>
+<a href="https://github.com/phacf">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/55549078?s=460&u=56ab76f6f4128968d460276fbfef4bf094be894d&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Paulo Henrique</b></sub></a> 
+
+<h2>Author</h2>
+<p>Made by Paulo Henrique contact me!</p>
+
+ [![Linkedin Badge](https://img.shields.io/badge/-Paulo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/phacf/)](https://www.linkedin.com/in/phacf/) 
+[![Gmail Badge](https://img.shields.io/badge/-phacff@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:phacff@gmail.com)](mailto:phacff@gmail.com)
+
